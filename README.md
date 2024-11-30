@@ -1,7 +1,8 @@
-# To-Do List Avancée
+#  🏗️ Presentation du projet To-Do List Avancée
 
 Une application de To-Do List interactive avec gestion des priorités et des statuts, construite avec :
 
+## Structure du projet
 - **Frontend** : HTML, CSS et JavaScript.
 - **Backend** : Node.js (avec un fichier JSON comme base de données).
 
@@ -17,5 +18,5 @@ Une application de To-Do List interactive avec gestion des priorités et des sta
 
 1. Clonez le projet :
    ```bash
-   git clone https://github.com/TON_UTILISATEUR/todo-list-avancee.git
+   git clone https://github.com/ntentie/todo-list-avancee.git
    cd todo-list-avancee
