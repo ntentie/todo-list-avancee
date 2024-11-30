@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Fichiers JSON contenant des données sensibles
+tasks.json
+
+# Fichiers de configuration potentiellement sensibles
+.env
+
+# Logs et fichiers temporaires
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dossiers ou fichiers générés
+.DS_Store
+.vscode/

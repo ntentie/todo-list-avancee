@@ -1,0 +1,172 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1.5rem;
+  }
+  
+  /* Main content */
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Task form */
+  #task-form {
+    margin-bottom: 2rem;
+  }
+  
+  #task-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  #task-form input, #task-form textarea, #task-form select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #task-form button {
+    padding: 0.8rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #task-form button:hover {
+    background-color: #555;
+  }
+  
+  /* Task list */
+  #task-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #task-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-details {
+    text-align: left;
+  }
+  
+  .task-actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  
+  .task-actions button.complete {
+    color: green;
+  }
+  
+  .task-actions button.delete {
+    color: red;
+  }
+  .task-actions .update-status {
+    background-color: #007bff; /* Couleur bleue */
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-actions .update-status:hover {
+    background-color: #0056b3; /* Couleur bleue foncée */
+  }
+.priority-low {
+  background-color: green;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+}
+
+.priority-medium {
+  background-color: orange;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+}
+
+.priority-high {
+  background-color: red;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+}
+.priority-low {
+    background-color: green;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .priority-medium {
+    background-color: orange;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .priority-high {
+    background-color: red;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+  }
+  .task-details {
+    margin-bottom: 1rem;
+  }
+  
+  .task-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .task-actions button, .task-actions select {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-actions button.delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .task-actions button.edit {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .task-actions select {
+    background-color: #e9ecef;
+  }
+    
